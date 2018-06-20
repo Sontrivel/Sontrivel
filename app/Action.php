@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Action extends Model
 {
+    //commented
     public $table = 'action';
     public function depends_on() {
         return $this->hasMany('App\DependsOn');
